@@ -56,3 +56,7 @@ if(bulan == 12 || bulan == 1 || bulan == 2){
     console.log('Musim Gugur');
 }
 
+// Operator logika
+console.log(`Apakah cuaca mendung dan berangin? ${adaAwan && adaAngin}`);
+console.log(`Apakah ada awan atau angin? ${adaAwan || adaAngin}`);
+console.log(`Apakah langit cerah (tidak ada awan)? ${!adaAwan}`);
